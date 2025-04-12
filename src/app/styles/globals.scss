@@ -1,19 +1,44 @@
 @import "tailwindcss";
 
-$primary : #7854F7;
-$secondary : #272D4E;
+$primary: #7854f7;
+$secondary: #272d4e;
 
 @font-face {
-    font-family: "IRANSansWeb_FaNum";
-    src: url("/font/IRANSansWeb_FaNum.woff2") format("woff2");
-    font-weight: normal;
-    font-display: swap;
+  font-family: "IRANSansWeb_FaNum";
+  src: url("/font/IRANSansWeb_FaNum.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
 }
 
-body{
-    font-family: "IRANSansWeb_FaNum";
+body {
+  font-family: "IRANSansWeb_FaNum";
 }
 
 .text-primary {
-    color: $primary;
+  color: $primary;
+}
+.team-custom-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(5px);
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.team-custom-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #CEC0FF;
+  opacity: 1;
+  margin: 0 4px;
+  border-radius: 16px;
+}
+
+.team-custom-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+  background-color: $primary;
 }
