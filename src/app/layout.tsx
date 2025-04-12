@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./styles/globals.scss"
 import "./globals.css";
+import { Header } from "@/components/layout/Header";
 
 export const metadata: Metadata = {
   title: "Artin-shop",
@@ -13,10 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fa" dir="rtl">
       <body
         className={`antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>

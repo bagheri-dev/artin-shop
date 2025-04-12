@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+$primary : #7854F7;
+$secondary : #272D4E;
+
 @font-face {
     font-family: "IRANSansWeb_FaNum";
     src: url("/font/IRANSansWeb_FaNum.woff2") format("woff2");
@@ -9,4 +12,8 @@
 
 body{
     font-family: "IRANSansWeb_FaNum";
+}
+
+.text-primary {
+    color: $primary;
 }
