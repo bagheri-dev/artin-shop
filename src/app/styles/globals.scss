@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "IRANSansWeb_FaNum";
+    src: url("/font/IRANSansWeb_FaNum.woff2") format("woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "IRANSansWeb_FaNum";
+}
