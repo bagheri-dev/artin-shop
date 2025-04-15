@@ -2,6 +2,7 @@
 
 $primary: #7854f7;
 $secondary: #272d4e;
+$borderColor : #B6B6B6;
 
 @font-face {
   font-family: "IRANSansWeb_FaNum";
@@ -41,4 +42,9 @@ body {
   width: 8px;
   height: 8px;
   background-color: $primary;
+}
+
+.CardProducts {
+  border: 1px solid $borderColor;
+  border-radius: 8px;
 }
