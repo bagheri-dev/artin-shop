@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 export const Hero = () => {
     const slides = [
         {
-            title: "احساس خوب زندگی با کفش‌های آرتین شاپ",
+            title: "احساس خوب زندگی ",
             image: "/images/banner/Group 1261153089.png",
             ornament: "/images/ornament.png",
         },
