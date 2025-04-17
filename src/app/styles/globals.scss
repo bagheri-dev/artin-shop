@@ -1,12 +1,73 @@
 @import "tailwindcss";
 
+$primary: #7854f7;
+$secondary: #272d4e;
+$borderColor : #B6B6B6;
+
 @font-face {
-    font-family: "IRANSansWeb_FaNum";
-    src: url("/font/IRANSansWeb_FaNum.woff2") format("woff2");
-    font-weight: normal;
-    font-display: swap;
+  font-family: "IRANSansWeb_FaNum";
+  src: url("/font/IRANSansWeb_FaNum.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
 }
 
-body{
-    font-family: "IRANSansWeb_FaNum";
+body {
+  font-family: "IRANSansWeb_FaNum";
+}
+
+.text-primary {
+  color: $primary;
+}
+.team-custom-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(5px);
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.team-custom-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #CEC0FF;
+  opacity: 1;
+  margin: 0 4px;
+  border-radius: 16px;
+}
+
+.team-custom-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+  background-color: $primary;
+}
+
+.CardProducts {
+  border: 1px solid $borderColor;
+  border-radius: 8px;
+}
+
+.border-radius {
+  border-radius: 8px;
+}
+
+.text-menu {
+  color: #4A4A4A;
+}
+
+@keyframes pulse-price {
+  0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  50% {
+      transform: scale(1.05);
+      opacity: 0.9;
+  }
+}
+
+.animate-pulse-price {
+  animation: pulse-price 1.5s ease-in-out infinite;
 }
