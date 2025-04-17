@@ -3,6 +3,7 @@ import { Banner2 } from "@/components/index/banner2";
 import { Hero } from "@/components/index/Hero";
 import { Products } from "@/components/index/Products";
 import { ProductsSections } from "@/components/index/ProductsSections";
+import { TabsProducts } from "@/components/index/TabsProducts";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ProductsSections />
       <Banner2 />
       <ProductsSections />
+      <TabsProducts />
     </>
   );
 }
