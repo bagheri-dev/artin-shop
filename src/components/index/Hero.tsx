@@ -27,7 +27,7 @@ export const Hero = () => {
     ];
 
     return (
-        <div className="-translate-y-12">
+        <div className="pb-16">
             <SiteContainer>
                 <Swiper
                     modules={[Pagination, Autoplay]}

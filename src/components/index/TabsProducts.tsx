@@ -2,8 +2,8 @@
 
 import { SiteContainer } from "@/lib/SiteContainer"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../UI/tabs"
-import { CardProduct } from "./Card/CardProduct"
 import { Swiper, SwiperSlide } from "swiper/react"
+import { CardProductSlider } from "./Card/CardProductSlider"
 import "swiper/css"
 
 type data = {
@@ -159,7 +159,7 @@ export const TabsProducts = () => {
                             >
                                 {latest.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <CardProduct {...item} />
+                                        <CardProductSlider {...item} />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
@@ -181,7 +181,7 @@ export const TabsProducts = () => {
                             >
                                 {bestsellers.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <CardProduct {...item} />
+                                        <CardProductSlider {...item} />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>

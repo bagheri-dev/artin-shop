@@ -13,28 +13,28 @@ const productsData : Array<data> = [
     {
         title: "کفش اسپورت سارزی",
         image: "/images/products/favpng_nike-air-max-270-womens-shoe-nike-wmns-air-max-270-flyknit-womens-sports-shoes (1).png",
-        score: 0,
+        score: 5,
         price : 380000,
         bgColor: "bg-[#A3FCB1]"
     },
     {
         title: "کفش پیاده روی  مدل NOV-BK",
         image: "/images/products/PngItem_6616167.png",
-        score: 0,
+        score: 2,
         price : 380000,
         bgColor: "bg-[#FCC3A3]"
     },
     {
         title: "کفش راحتی کد 210",
         image: "/images/products/PngItem_4881188.png",
-        score: 0,
+        score: 4,
         price : 380000,
         bgColor: "bg-[#A3F7FC]"
     },
     {
         title: "کفش پیاده روی  مدل NOV-BK",
         image: "/images/products/507-5075088_nike-air-max-270-blue-and-green-hd-removebg-preview.png",
-        score: 0,
+        score: 1,
         price : 380000,
         bgColor: "bg-[#FCA3A3]"
     },
@@ -48,7 +48,7 @@ const productsData : Array<data> = [
     {
         title: "کفش اسپرت سارزی",
         image: "/images/products/507-5075088_nike-air-max-270-blue-and-green-hd-removebg-preview.png",
-        score: 0,
+        score: 4.5,
         price : 380000,
         bgColor: "bg-[#7BE498]"
     },

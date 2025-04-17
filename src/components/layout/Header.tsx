@@ -7,7 +7,7 @@ import SearchIcon from "../UI/svgs/search"
 const menuData = [
     {
         name: "مردانه",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -17,7 +17,7 @@ const menuData = [
     },
     {
         name: "زنانه",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -27,7 +27,7 @@ const menuData = [
     },
     {
         name: "بچگانه",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -37,7 +37,7 @@ const menuData = [
     },
     {
         name: "شگفت انگیز",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -47,7 +47,7 @@ const menuData = [
     },
     {
         name: "جدیدترین ها",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -57,7 +57,7 @@ const menuData = [
     },
     {
         name: "بلاگ",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -67,7 +67,7 @@ const menuData = [
     },
     {
         name: "پشتیبانی",
-        src: "",
+        src: "#",
         child: [
             {
                 name: "",
@@ -102,9 +102,7 @@ export const Header = () => {
                         <nav className="flex items-center justify-center">
                             <ul className="flex items-center gap-x-10">
                                 {menuData.map((item, index) => {
-                                    return <Link key={index} href={item.src}>
-                                        <li>{item.name}</li>
-                                    </Link>
+                                    return <li key={index} className="hover:text-primary transition-colors"><Link href={item.src}>{item.name}</Link></li>
                                 })}
                             </ul>
                         </nav>

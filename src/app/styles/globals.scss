@@ -56,3 +56,18 @@ body {
 .text-menu {
   color: #4A4A4A;
 }
+
+@keyframes pulse-price {
+  0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  50% {
+      transform: scale(1.05);
+      opacity: 0.9;
+  }
+}
+
+.animate-pulse-price {
+  animation: pulse-price 1.5s ease-in-out infinite;
+}
